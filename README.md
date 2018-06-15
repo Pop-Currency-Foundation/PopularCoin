@@ -19,7 +19,7 @@ PopularCoin™ core POPCOIN™ trading ticker POP is an open source currency for
 
 For an immediately useable, binary version of the PopularCoin™ client software, see https://github.com/Pop-Currency-Foundation/PopularCoin/releases
 
-For Version 1 Information Visit https://github.com/Pop-Currency-Foundation/POPCoin-POP-FirstChain
+For Version 1 Information Visit https://github.com/Pop-Currency-Foundation/POPCOIN-PopularCoin-First-Version-Master
 
 Scrypt Hybrid PoW/PoS
 -----------------------

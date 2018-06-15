@@ -1,0 +1,7 @@
+Makefile.Debug
+Makefile.Release
+object_script.PopularCoin-qt.Release
+object_script.PopularCoin-qt.Debug
+build/
+release/
+.popcoin-qt.pro.swp

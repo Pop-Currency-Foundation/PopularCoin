@@ -1027,7 +1027,7 @@ int64 GetProofOfWorkReward(int nHeight, int64 nFees, uint256 prevHash)
     return nSubsidy + nFees;
 	}
 
-  if (nHeight >= 87600 && nHeight < 175200) //6 months
+  if (nHeight >= 87600 && nHeight < 110000) //6 months
     {
 		nSubsidy = 49 * COIN;
 		
@@ -1063,9 +1063,9 @@ int64 GetProofOfWorkReward(int nHeight, int64 nFees, uint256 prevHash)
     return nSubsidy + nFees;
 	}
 
-  if (nHeight >= 175200)
+  if (nHeight >= 110000)
     {
-		nSubsidy = 9 * COIN;
+		nSubsidy = 99 * COIN;
 		
 		if (mod_floor(nHeight, 10000) == 0)
 		{

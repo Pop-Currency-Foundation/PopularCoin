@@ -25,10 +25,10 @@ extern const std::string CLIENT_DATE;
 // network protocol versioning
 //
 
-static const int PROTOCOL_VERSION = 20000;
+static const int PROTOCOL_VERSION = 21000;
 
 // earlier versions not supported as of June 2018, and are disconnected
-static const int MIN_PROTO_VERSION = 19999;
+static const int MIN_PROTO_VERSION = 20999;
 
 // nTime field added to CAddress, starting with this version;
 // if possible, avoid requesting addresses nodes older than this
@@ -45,7 +45,7 @@ static const int BIP0031_VERSION = 19999;
 static const int MEMPOOL_GD_VERSION = 19999;
 
 #define DISPLAY_VERSION_MAJOR       2
-#define DISPLAY_VERSION_MINOR       0
+#define DISPLAY_VERSION_MINOR       1
 #define DISPLAY_VERSION_REVISION    0
 #define DISPLAY_VERSION_BUILD       0
 

@@ -37,7 +37,7 @@ const std::string CLIENT_NAME("PopularCoin (POP)");
 #define GIT_ARCHIVE 1
 #ifdef GIT_ARCHIVE
 #    define GIT_COMMIT_ID ""
-#    define GIT_COMMIT_DATE "June 19, 2020"
+#    define GIT_COMMIT_DATE "Aug 5, 2020"
 #endif
 
 #define BUILD_DESC_FROM_COMMIT(maj,min,rev,build,commit) \

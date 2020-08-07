@@ -19,7 +19,7 @@ PopularCoin™ core POPCOIN™ trading ticker POP is an open source currency for
 
 For an immediately useable, binary version of the PopularCoin™ client software, see https://github.com/Pop-Currency-Foundation/PopularCoin/releases
 
-For Version 1 Information Visit https://github.com/Pop-Currency-Foundation/POPCOIN-PopularCoin-First-Version-Master
+For Popular Coin's SOCIAL Media That Pays POP Website Visit https://popnomics.com
 
 Pure Proof of Stake at Block 256000
 -----------------------
@@ -30,7 +30,7 @@ Average Block Spacing: 180 Seconds
 Difficulty Retarget Every Block | 
 50 Confirmations for Minting
 
-Proof of Stake Ended at Block 256000
+Proof of Stake
 -----------------------
 Block Spacing: 180 Seconds
  
@@ -39,7 +39,7 @@ Block Spacing: 180 Seconds
 Staking begins Within 2hrs With Wallet left Open | 
 Stake Weight Chance of Success Maximized at 30 days
 
-Proof of Work
+Proof of Work Ended at Block 256000
 -----------------------
 
 Block Spacing: 180 Seconds
@@ -87,7 +87,7 @@ Sample popcoin.conf
 	rpcallowip=127.0.0.1
 	rpcport=27171
 	port=18181
-	addnode=199.217.112.53
+	addnode=209.239.122.186
 	addnode=209.239.123.203`
 
 Development process
@@ -130,7 +130,7 @@ License
 
 PopularCoin™ (POP) is released under the terms of the MIT license. See COPYING for more information or see http://opensource.org/licenses/MIT.
 
-
+For Version 1 Information Visit https://github.com/Pop-Currency-Foundation/POPCOIN-PopularCoin-First-Version-Master
 
 
 

@@ -21,7 +21,7 @@ For an immediately useable, binary version of the PopularCoin™ client software
 
 For Version 1 Information Visit https://github.com/Pop-Currency-Foundation/POPCOIN-PopularCoin-First-Version-Master
 
-Pure Proof of Stake at Block 255000
+Pure Proof of Stake at Block 256000
 -----------------------
 
 Average Block Spacing: 180 Seconds
@@ -30,7 +30,7 @@ Average Block Spacing: 180 Seconds
 Difficulty Retarget Every Block | 
 50 Confirmations for Minting
 
-Proof of Stake Ended at Block 255000
+Proof of Stake Ended at Block 256000
 -----------------------
 Block Spacing: 180 Seconds
  
@@ -50,7 +50,7 @@ Block 1000 - 87600 = 99 Coins per block (6 months)
 
 Block 87600 - 175200 = 49 Coins per block (6 months)
 
-Block 175200 - 255000 = 99 Coins per block 
+Block 175200 - 256000 = 99 Coins per block 
 
 POP Blocks X Rewards:
 

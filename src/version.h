@@ -25,7 +25,7 @@ extern const std::string CLIENT_DATE;
 // network protocol versioning
 //
 
-static const int PROTOCOL_VERSION = 24000;
+static const int PROTOCOL_VERSION = 24100;
 
 // earlier versions not supported as of August 2020, and are disconnected
 static const int MIN_PROTO_VERSION = 22999;
@@ -46,7 +46,7 @@ static const int MEMPOOL_GD_VERSION = 19999;
 
 #define DISPLAY_VERSION_MAJOR       2
 #define DISPLAY_VERSION_MINOR       4
-#define DISPLAY_VERSION_REVISION    0
+#define DISPLAY_VERSION_REVISION    1
 #define DISPLAY_VERSION_BUILD       0
 
 #endif

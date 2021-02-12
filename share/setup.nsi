@@ -5,9 +5,9 @@ SetCompressor /SOLID lzma
 
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
-!define VERSION 2.5.0
+!define VERSION 2.0.0
 !define COMPANY "PopularCoin"
-!define URL https://www.popularcoin.com
+!define URL http://
 
 # MUI Symbol Definitions
 !define MUI_ICON "../share/pixmaps/PopularCoin.ico"
@@ -45,11 +45,11 @@ Var StartMenuGroup
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile PopularCoin-2.5.0-win32-setup.exe
+OutFile PopularCoin-2.0.0-win32-setup.exe
 InstallDir $PROGRAMFILES\PopularCoin
 CRCCheck on
 XPStyle on
-BrandingText "${COMPANY}"
+BrandingText " "
 ShowInstDetails show
 VIProductVersion 2.0
 VIAddVersionKey ProductName PopularCoin

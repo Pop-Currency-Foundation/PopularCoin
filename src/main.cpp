@@ -1123,8 +1123,8 @@ int64 GetProofOfStakeReward(int64 nCoinAge, unsigned int nBits, unsigned int nTi
     return nSubsidy;
 }
 
-static const int64 nTargetTimespan = 600;  // Proof of Work Target Timespan 600 Seconds
-static const int64 nTargetSpacingWorkMax = 300; // Proof of Work Target Spacing 600 Seconds
+static const int64 nTargetTimespan = 180;  // Proof of Work Target Timespan 180 Seconds
+static const int64 nTargetSpacingWorkMax = 90; // Proof of Work Target Spacing 180 Seconds
 
 //
 // maximum nBits value could possible be required nTime after
@@ -4469,7 +4469,7 @@ void BitcoinMiner(CWallet *pwallet, bool fProofOfStake)
         while (pwallet->IsLocked())
         {
             strMintWarning = strMintMessage;
-            Sleep(1);
+            Sleep(10);
         }
         strMintWarning = "Wallet is unlocked for minting.";
 

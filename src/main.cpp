@@ -2908,7 +2908,7 @@ bool LoadExternalBlockFile(FILE* fileIn)
 extern map<uint256, CAlert> mapAlerts;
 extern CCriticalSection cs_mapAlerts;
 
-static string strMintMessage = " Minting suspended due to locked wallet.";
+static string strMintMessage = "Minting suspended due to locked wallet.";
 static string strMintWarning;
 
 string GetWarnings(string strFor)
@@ -4471,7 +4471,7 @@ void BitcoinMiner(CWallet *pwallet, bool fProofOfStake)
             strMintWarning = strMintMessage;
             Sleep(1);
         }
-        strMintWarning = " Wallet is unlocked for minting.";
+        strMintWarning = "Wallet is unlocked for minting.";
 
         //
         // Create new block

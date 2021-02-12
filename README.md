@@ -1,7 +1,7 @@
 PopularCoin Version 2.0
 ================================
 
-Visit https://www.popularcoin.com
+Website: https://www.popularcoin.com
 
 Established 2014 as POPCOIN™ Core and POPULARCOIN™ Client 
 Visit https://www.popcoin.info for establishment information
@@ -32,7 +32,7 @@ Difficulty Retarget Every Block |
 
 Proof of Stake
 -----------------------
-Block Spacing: 180 Seconds
+Block Spacing: 20 Per Day
  
 5% Annual Stake Minting Rewards
 
@@ -41,8 +41,6 @@ Stake Weight Chance of Success Maximized at 30 days
 
 Proof of Work Ended at Block 256000
 -----------------------
-
-Block Spacing: 180 Seconds
 
 Base Reward:
 

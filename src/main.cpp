@@ -43,7 +43,7 @@ static CBigNum bnProofOfStakeLimitTestNet(~uint256(0) >> 20);
 
 unsigned int nStakeMinAge = 60 * 60 * 24 * 0.084;	// minimum age for coin age: 2 hours
 unsigned int nStakeMaxAge = 60 * 60 * 24 * 30;	// stake age of full weight: 30d
-unsigned int nStakeTargetSpacing = 180;			// 180 sec stake block spacing
+unsigned int nStakeTargetSpacing = 40;			// 180 sec stake block spacing
 
 int64 nChainStartTime = 1529021473;
 int nCoinbaseMaturity = 30;
@@ -1123,8 +1123,8 @@ int64 GetProofOfStakeReward(int64 nCoinAge, unsigned int nBits, unsigned int nTi
     return nSubsidy;
 }
 
-static const int64 nTargetTimespan = 180;  // Proof of Work Target Timespan 180 Seconds
-static const int64 nTargetSpacingWorkMax = 90; // Proof of Work Target Spacing 180 Seconds
+static const int64 nTargetTimespan = 600;  // Proof of Work Target Timespan 600 Seconds
+static const int64 nTargetSpacingWorkMax = 300; // Proof of Work Target Spacing 600 Seconds
 
 //
 // maximum nBits value could possible be required nTime after
@@ -2908,7 +2908,7 @@ bool LoadExternalBlockFile(FILE* fileIn)
 extern map<uint256, CAlert> mapAlerts;
 extern CCriticalSection cs_mapAlerts;
 
-static string strMintMessage = "Info: Minting suspended due to locked wallet.";
+static string strMintMessage = " Minting suspended due to locked wallet.";
 static string strMintWarning;
 
 string GetWarnings(string strFor)
@@ -4469,9 +4469,9 @@ void BitcoinMiner(CWallet *pwallet, bool fProofOfStake)
         while (pwallet->IsLocked())
         {
             strMintWarning = strMintMessage;
-            Sleep(1000);
+            Sleep(1);
         }
-        strMintWarning = "";
+        strMintWarning = " Wallet is unlocked for minting.";
 
         //
         // Create new block

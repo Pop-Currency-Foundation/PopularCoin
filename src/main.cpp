@@ -4469,7 +4469,7 @@ void BitcoinMiner(CWallet *pwallet, bool fProofOfStake)
         while (pwallet->IsLocked())
         {
             strMintWarning = strMintMessage;
-            Sleep(1000);
+            Sleep(10);
         }
         strMintWarning = "Wallet is unlocked for minting.";
 
